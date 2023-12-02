@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #689eb3b2;
+}
+.page{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.page span{
+    color: #ffd20c;
+    font-size: 50px;
+}
+.buttons{
+    width: 350px;
+    background-color: #ffffff99;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons input{
+    flex: 1;
+    margin: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.buttons button{
+    margin: 15px 15px 15px 0px;
+    width: 90px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #40809a;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.buttons input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% -10px);
+    cursor: pointer;
+    background-size: 0px;
+}
